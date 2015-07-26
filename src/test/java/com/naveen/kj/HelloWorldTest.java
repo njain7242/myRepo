@@ -1,38 +1,16 @@
 package com.naveen.kj;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
  */
-public class HelloWorldTest
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public HelloWorldTest(String testName)
-    {
-        super( testName );
-    }
+public class HelloWorldTest{
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( HelloWorldTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
+    @Test
     public void testApp()
     {
-        assertTrue( true );
+        System.out.println("Branch Name : testBranch");
     }
 }
