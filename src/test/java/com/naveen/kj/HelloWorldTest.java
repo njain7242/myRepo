@@ -6,11 +6,8 @@ import org.testng.annotations.Test;
 /**
  * Unit test for simple App.
  */
-public class HelloWorldTest {
-
-    @Test
-    public void testApp()
-    {
-        System.out.println("HelloWorldTest");
-    }
+<<<<<<< HEAD
+public class HelloWorldTest
+{
+        System.out.println("Hello World Test");
 }
